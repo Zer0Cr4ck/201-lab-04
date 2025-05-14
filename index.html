@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Landing Page de Producto</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans text-gray-800">
+  <div class="grid grid-cols-1 md:grid-cols-[250px_1fr] grid-rows-[auto_1fr] min-h-screen">
+    <header class="col-span-full bg-gray-100 p-4 sticky top-0">
+      <nav aria-label="Navegación principal">
+        <ul class="flex flex-wrap justify-between gap-4">
+          <li><a href="index.html" class="hover:underline">Inicio</a></li>
+          <li><a href="testimonios.html" class="hover:underline">Testimonios</a></li>
+          <li><a href="compra.html" class="hover:underline">Comprar</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <aside class="bg-gray-200 p-4">
+      <h2 class="text-lg font-semibold mb-2">Menú</h2>
+      <ul class="space-y-1">
+        <li><a href="#caracteristicas" class="text-blue-600 hover:underline">Características</a></li>
+        <li><a href="#envio" class="text-blue-600 hover:underline">Opciones de Envío</a></li>
+        <li><a href="#pago" class="text-blue-600 hover:underline">Formas de Pago</a></li>
+      </ul>
+    </aside>
+
+    <main class="p-4 space-y-6">
+      <section id="hero">
+        <h1 class="text-2xl font-bold">Nombre del Producto</h1>
+        <p class="mt-2">Una breve descripción del valor principal del producto.</p>
+      </section>
+
+      <section id="caracteristicas">
+        <h2 class="text-xl font-semibold mb-2">Características</h2>
+        <div class="space-y-4">
+          <article>
+            <h3 class="font-semibold">Característica 1</h3>
+            <p>Descripción de la característica 1.</p>
+          </article>
+          <article>
+            <h3 class="font-semibold">Característica 2</h3>
+            <p>Descripción de la característica 2.</p>
+          </article>
+          <article>
+            <h3 class="font-semibold">Característica 3</h3>
+            <p>Descripción de la característica 3.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="envio">
+        <h2 class="text-xl font-semibold mb-2">Opciones de Envío</h2>
+        <ul class="list-disc list-inside">
+          <li>Envío nacional</li>
+          <li>Envío internacional</li>
+        </ul>
+        <p>Costos según ubicación.</p>
+      </section>
+
+      <section id="pago">
+        <h2 class="text-xl font-semibold mb-2">Formas de Pago</h2>
+        <ul class="list-disc list-inside">
+          <li>Tarjeta de crédito</li>
+          <li>Transferencia bancaria</li>
+          <li>Pagos en línea</li>
+        </ul>
+        <p>Promociones disponibles en bancos seleccionados.</p>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
